@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: lightblue;
+  color: white;
+
+
+}
+
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+
+}
+
+body{
+  background-color: #fd79a8;
+}
+
+.youtube{
+  border: 3px #81ecec dashed;
+  margin-top: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #f1c40f;
+}
